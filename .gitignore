@@ -15,6 +15,33 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.class
+*.log
+*.pid
+*.hprof
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+pom.xml
+
+# Gradle
+.gradle/
+build/
 
 ### Eclipse ###
 .apt_generated
